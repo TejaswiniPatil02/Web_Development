@@ -1,0 +1,35 @@
+body{
+    display: flex;
+}
+
+.abc{
+    background-color:rosybrown;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding-left: 10px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+}
+/*absolute position*/
+.abc1{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 50px 50px;
+    top: 50px;
+    justify-content: center;
+
+}
+/* sticky position*/
+.abc2{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    border: 2px solid greenyellow;
+}

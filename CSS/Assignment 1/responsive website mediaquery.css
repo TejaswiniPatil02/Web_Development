@@ -1,0 +1,141 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.diva{
+    height: 100px;
+
+    background-color: blueviolet;
+}
+.divb{
+    height: 100px;
+
+    background-color: brown;
+}
+.divc{
+    height: 100px;
+    
+    background-color: aquamarine;
+}
+.divd{
+    height: 100px;
+    
+    background-color: burlywood;
+
+}
+.dive{
+    height: 100px;
+    
+    background-color: chocolate;
+}
+.divf{
+    height: 100px;
+
+    background-color: coral;
+}
+@media(min-width:320px){
+    .diva{
+        height: 100px;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    .divb{
+        height: 100px;
+        width: 100%;
+        background-color: brown;
+    }
+    .divc{
+        height: 100px;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .divd{
+        height: 100px;
+        width: 100%;
+        background-color: burlywood;
+    
+    }
+    .dive{
+        height: 100px;
+        width: 100%;
+        background-color: chocolate;
+    }
+    .divf{
+        height: 100px;
+        width: 100%;
+        background-color: coral;
+}
+}
+@media(min-width:768px){
+    .diva{
+        height: 100px;
+        width: 50%;
+        background-color: blueviolet;
+    }
+    .divb{
+        height: 100px;
+        width: 50%;
+        background-color: brown;
+    }
+    .divc{
+        height: 100px;
+        width: 50%;
+        background-color: aquamarine;
+    }
+    .divd{
+        height: 100px;
+        width: 50%;
+        background-color: burlywood;
+    
+    }
+    .dive{
+        height: 100px;
+        width: 50%;
+        background-color: chocolate;
+    }
+    .divf{
+        height: 100px;
+        width: 50%;
+        background-color: coral;
+    }
+}
+@media(min-width:992px){
+    .diva{
+        height: 100px;
+        width:33%;
+        background-color: blueviolet;
+    }
+    .divb{
+        height: 100px;
+        width: 33%;
+        background-color: brown;
+    }
+    .divc{
+        height: 100px;
+        width: 33%;
+        background-color: aquamarine;
+    }
+    .divd{
+        height: 100px;
+        width: 33%;
+        background-color: burlywood;
+    
+    }
+    .dive{
+        height: 100px;
+        width: 33%;
+        background-color: chocolate;
+    }
+    .divf{
+        height: 100px;
+        width: 33%;
+        background-color: coral;
+    }
+}
+    

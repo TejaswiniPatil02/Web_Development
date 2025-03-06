@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.traffic{
+    height: 600px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    display:flex ;
+    gap: 40px;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 10px 10px 15px ;
+}
+.light{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: gray;
+    margin: 30px; 
+    opacity: 0.3;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+@keyframes trafficCyle{
+    0%{background-color: red; opacity: 1;}
+    33%{background-color: grey; opacity: 0.3;}
+    66%{background-color: grey;opacity: 0.3;}
+}
+@keyframes trafficCycle{
+    0%{background-color: grey;opacity: 0.3;}
+    33%{background-color: yellow;opacity: 1;}
+    66%{background-color: grey;opacity: 0.3;}
+}
+@keyframes trafficCycle{
+    0%{background-color: grey;opacity: 0.3;}
+    33%{background-color: gray;opacity: 0.3;}
+    66%{background-color:green;opacity: 1;}
+}
+.red{
+    animation: trafficCycle 6s infinite;
+}
+.yellow{
+    animation: trafficCycle 6s infinite;
+}
+.green{
+   animation: trafficCycle 6s infinite;
+}

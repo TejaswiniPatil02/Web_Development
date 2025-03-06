@@ -1,0 +1,9 @@
+.child1{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    margin: 50px 20px 30px;
+    position: relative;
+    top: 50 px;
+    left: 30px;
+}

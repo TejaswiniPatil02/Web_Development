@@ -1,0 +1,21 @@
+.a{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    left: 10px;
+    border-radius: 50%;
+
+}
+.b{
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    left: 50px;
+    border-radius: 50%;
+}

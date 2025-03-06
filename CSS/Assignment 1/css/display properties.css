@@ -1,0 +1,17 @@
+
+h4{
+    color: red;
+}
+
+div p.a {
+    display: inline;
+    color:yellow;
+}
+div p.b{
+    display: block;
+    color: brown;
+}
+div p.c{
+    display: inline-block;
+    color: darkred;
+}

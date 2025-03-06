@@ -1,0 +1,8 @@
+
+.sticky{
+    position: sticky;
+    border: 2 px solid red;
+    top: px;
+    padding: 5px;
+    background-color: aqua;
+}

@@ -1,0 +1,11 @@
+.abc{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    border: 2px solid yellowgreen;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 20px 20px;
+    text-align: center;
+    border-radius: 40px;
+}
