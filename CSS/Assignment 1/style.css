@@ -1,0 +1,63 @@
+h2{
+    color: brown;
+
+}
+p{
+    color: lightgreen;
+}
+button{
+    color: deeppink;
+    font-weight: 600;
+}
+button{
+    background-color:blueviolet;
+}
+body{
+    background-color: grey;
+}
+#heading1{
+    color: darkolivegreen;
+    text-decoration: wavy underline;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+#one{
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+#onee{
+ font-size: 34px;
+}
+#twoo{
+    font-size: 50px;
+}
+#three{
+    font-size: 65px;
+}
+div{
+    height: 200px;
+    width: 200px;
+   background-color: pink;
+   /* border-style: solid;
+    border-color: black;
+    border-width: 5px;*/
+    border: 2px solid brown;
+    border-radius: 15px;
+    text-align: left;
+    padding: 50px;
+    margin: 30px;
+}
+

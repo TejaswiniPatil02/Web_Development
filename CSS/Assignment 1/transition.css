@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    transition-duration: 5s;
+    transition-timing-function: 4s;
+}
+div:hover{
+    background-color: red;
+}
