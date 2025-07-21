@@ -1,0 +1,27 @@
+.section1{
+    background-image: url(images/Bg-pNg-1-2.png), linear-gradient(rgba(209, 175, 119, 0.938), rgba(202, 149, 63, 0.938), rgba(154, 113, 47, 0.938), rgba(34, 34, 34, 0.979));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.bg-World{
+    background-image:linear-gradient(rgba(255, 202, 96, 0.193), rgba(255, 202, 96, 0.189)), url(images/Airplan_bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: rgb(209, 175, 119) 5px solid;
+    outline: gray 7px dashed;
+    outline-offset: -15px;
+    width: 80%;
+}
+
+
+
+
+/* Side Ticket */
+
+.orangeTwo{
+    background-color: rgba(168, 112, 0, 0.672);
+}

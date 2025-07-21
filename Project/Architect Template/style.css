@@ -1,0 +1,112 @@
+
+.navbar ul{
+    list-style: none;
+    background-color:gainsboro;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    margin: 0px 0px 0px 2px;
+    color: blanchedalmond;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: burlywood;
+}
+
+.navbar li{
+    float: left;
+    padding: 10px;
+}
+.main1{
+    height: 800px;
+    width: 100%;
+}
+h4{
+    text-align: center;
+
+}
+h2{
+    padding: 10px;
+    margin: 20px;
+}
+.img1,.img2{
+    height: 250px;
+    display: flex;
+
+}
+.img1,img{
+    padding: 10px;
+}
+p{
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+}
+.img3{
+    height: 250px;
+    display: flex;
+}
+.img3,.a,.b,.c,.d{
+    height: 220px;
+}
+.team1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.team{
+    height: 800px;
+}
+
+.team1 button{
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 12px;
+    width: 100%;
+}
+.team1 button:hover{
+    background-color: gainsboro;
+}
+.contact{
+    height: 300px;
+    width: 100%;  
+    
+}
+.contact1{
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+}
+.btncontact{
+    background-color:black;
+    color: white;
+    border: 2px solid darkolivegreen;
+    border-radius: 2px;
+    width: 10%;
+    height: 30px;
+}
+input{
+    width: 91%;
+}
+.map{
+    height: 858px;
+    width: 100%;
+}
+.w3{
+  
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
