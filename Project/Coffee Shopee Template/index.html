@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CoffeeVibe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand text-danger" href="#"><b>Coffee<i>Vibe</i></b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="bg-secondary text-white text-center">
+  <div class="container">
+    <h1 class="display-4 ">Welcome to CoffeeVibe</h1>
+    <p class="lead">Your daily dose of freshly brewed coffee</p>
+    <a href="#menu" class="btn btn-danger">Explore Menu</a>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="bg-info text-dark">
+  <div class="container text-center">
+    <h2 class="mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://blogstudio.s3.theshoppad.net/coffeeheroau/ec178d83e5f597b162cda1e60cb64194.jpg" width="150" height="150">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Strong and bold. ₹120</p>
+            <button type="submit" class="btn btn-danger w-100">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <img src="http://recipesnobs.com/wp-content/uploads/2016/05/coffee-latte.jpg" width="150" height="150">
+            <h5 class="card-title">Latte</h5>
+            <p class="card-text">Smooth and milky. ₹150</p>
+            <button type="submit" class="btn btn-danger w-100">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body ">
+            <img src="https://cdn.pixabay.com/photo/2019/12/02/11/23/drink-4667507_1280.jpg" width="150" height="150">
+            <h5 class="card-title">Iced Coffee</h5>
+            <p class="card-text">Cool and refreshing. ₹180</p>
+            <button type="submit" class="btn btn-danger w-100">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-secondary text-white text-center">
+  <div class="container">
+    <h2 class="mb-4">About Us</h2>
+    <p>CoffeeVibe is a cozy coffee shop that started in 2020. We use only premium beans and serve every cup with love. Whether you’re working, relaxing, or meeting friends — we’ve got the perfect cup for you.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form class="w-75 mx-auto">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Your email">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 CoffeeVibe. All rights reserved.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
