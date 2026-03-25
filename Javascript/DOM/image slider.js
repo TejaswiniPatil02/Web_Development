@@ -42,4 +42,4 @@ function prev() {
 
 
 // image auto change in 2 sec 
-setInterval(next, 2000);
+//setInterval(next, 2000);
